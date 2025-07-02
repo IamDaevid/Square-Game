@@ -1,0 +1,33 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+}   
+
+#liste1{
+  list-style-type: none;
+}
+
+#liste2{
+  list-style-type: none;
+}
+
+#controlsList{
+  display: flex;
+  list-style-type: none;
+  flex-direction: column;
+  justify-content: space-evenly;
+  text-align: center;
+}
+
+#zurueck{
+  top: 10px;
+  right: 10px;
+  padding: 10px;
+}
+
+.zurueckbutton{
+ display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  text-align: center;
+}
